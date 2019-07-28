@@ -1,0 +1,15 @@
+#quote-box{
+    width:50%;
+    min-height:20vh;
+text-align: center;
+line-height: 2.5em;
+letter-spacing: 0.1em;
+    background:white;
+    margin:25vh auto;
+}
+#text{
+    font-size:3em;
+}
+#author{
+    text-align: end;
+}
