@@ -1,15 +1,42 @@
 #quote-box{
     width:50%;
     min-height:20vh;
-text-align: center;
-line-height: 2.5em;
-letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 2.5em;
+    letter-spacing: 0.1em;
     background:white;
-    margin:25vh auto;
+    margin:15vh auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
 #text{
-    font-size:3em;
+    font-size:2.5em;
 }
 #author{
     text-align: end;
+    font-size:2em;
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height:50px;
+    padding:10px;
+}
+#new-quote{
+    width:auto;
+    font-size: 1.5em;
+    border-radius:10px;
+}
+.tweet-quote{
+    font-size:1.5em;
+    width:80px;
+    position: relative;
+    left:18em;
+    border-radius:10px;
+  
+}
+a{
+    color:white;
 }
